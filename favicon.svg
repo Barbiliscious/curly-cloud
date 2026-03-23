@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" shape-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5A3214"/>
+      <stop offset="1" stop-color="#2E1503"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6B3E1D"/>
+      <stop offset="1" stop-color="#3A1E09"/>
+    </linearGradient>
+    <linearGradient id="hat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B1A10"/>
+      <stop offset="1" stop-color="#120A06"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6D57B"/>
+      <stop offset="1" stop-color="#B97D19"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0.6" stdDeviation="0.6" flood-color="#130902" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- hat -->
+  <path d="M4.3 10.2C5.6 7.9 8.9 6.6 12.2 6.8c1.4-1.2 6.3-1.3 7.8 0 3.3-.2 6.5 1.1 7.8 3.4-.8.5-2 .9-3.4 1.1-.8.1-1.2.8-1.5 1.6-.8 2.1-2.8 3.4-6.8 3.4s-6-1.3-6.8-3.4c-.3-.8-.7-1.5-1.5-1.6-1.4-.2-2.6-.6-3.5-1.3Z"
+        fill="url(#hat)" stroke="#C89836" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)"/>
+  <path d="M13.8 7.7c1.1-.8 3.4-.8 4.4 0" fill="none" stroke="#C89836" stroke-width="0.65" stroke-linecap="round"/>
+  <circle cx="22.9" cy="8.9" r="0.75" fill="#F4E3B2"/>
+  <path d="M22.2 9.9h1.4M22.9 9.2v1.4" stroke="#F4E3B2" stroke-width="0.45" stroke-linecap="round"/>
+  <path d="M22.35 9.35l1.1 1.1M23.45 9.35l-1.1 1.1" stroke="#F4E3B2" stroke-width="0.34" stroke-linecap="round"/>
+
+  <!-- ears / curls -->
+  <path d="M6.8 15.2c-1.7 1.2-2.4 3.4-1.8 5.6.5 1.8 1.9 3.4 3.8 4.1 1 .4 2.1.5 3.1.3-.5-1.8-.5-4 .1-5.8.4-1.5.4-3.1-.3-4.5-1.6-.1-3.2-.1-4.9.3Z"
+        fill="url(#fur)" stroke="#5D3416" stroke-width="0.55"/>
+  <path d="M25.2 15.2c1.7 1.2 2.4 3.4 1.8 5.6-.5 1.8-1.9 3.4-3.8 4.1-1 .4-2.1.5-3.1.3.5-1.8.5-4-.1-5.8-.4-1.5-.4-3.1.3-4.5 1.6-.1 3.2-.1 4.9.3Z"
+        fill="url(#fur)" stroke="#5D3416" stroke-width="0.55"/>
+
+  <!-- inner curls -->
+  <path d="M8.7 18.2c1-.1 1.4 1 .8 1.7-.7.8-2 .2-1.7-.8.1-.5.4-.8.9-.9Z" fill="none" stroke="#8B562A" stroke-width="0.6" stroke-linecap="round"/>
+  <path d="M7.4 20.8c1.1-.1 1.5 1.1.8 1.8-.8.8-2 .1-1.7-.9.1-.5.4-.8.9-.9Z" fill="none" stroke="#8B562A" stroke-width="0.6" stroke-linecap="round"/>
+  <path d="M23.3 18.2c-1-.1-1.4 1-.8 1.7.7.8 2 .2 1.7-.8-.1-.5-.4-.8-.9-.9Z" fill="none" stroke="#8B562A" stroke-width="0.6" stroke-linecap="round"/>
+  <path d="M24.6 20.8c-1.1-.1-1.5 1.1-.8 1.8.8.8 2 .1 1.7-.9-.1-.5-.4-.8-.9-.9Z" fill="none" stroke="#8B562A" stroke-width="0.6" stroke-linecap="round"/>
+
+  <!-- head -->
+  <path d="M11 13.6c-1 1.8-1.2 3.8-.9 6 .4 2.9 2.8 5.6 5.9 5.6s5.5-2.7 5.9-5.6c.3-2.1.1-4.2-.9-6-1.4-.5-3.2-.7-5-.7s-3.6.2-5 .7Z"
+        fill="url(#face)" stroke="#241107" stroke-width="0.6" filter="url(#shadow)"/>
+
+  <!-- curls below chin -->
+  <path d="M12.2 23.6c-1 .8-1.2 2.1-.5 3 .7 1 2 .9 2.7.1-.8-.3-1.4-1.1-1.3-2 .1-.4-.2-.8-.9-1.1Z" fill="url(#fur)"/>
+  <path d="M19.8 23.6c1 .8 1.2 2.1.5 3-.7 1-2 .9-2.7.1.8-.3 1.4-1.1 1.3-2-.1-.4.2-.8.9-1.1Z" fill="url(#fur)"/>
+
+  <!-- eyepatch -->
+  <path d="M11 14.5c1 0 1.9.8 1.9 1.8s-.9 1.8-1.9 1.8c-1 0-1.8-.8-1.8-1.8s.8-1.8 1.8-1.8Z"
+        fill="#120B08" stroke="#4E3621" stroke-width="0.45"/>
+  <path d="M8.7 15.4c.8-.7 1.8-1.1 2.8-1.1h2.4" fill="none" stroke="#2D2117" stroke-width="0.6" stroke-linecap="round"/>
+
+  <!-- eye -->
+  <ellipse cx="19.8" cy="16.2" rx="1.15" ry="1.35" fill="#F1C35D"/>
+  <circle cx="19.9" cy="16.25" r="0.55" fill="#24130A"/>
+  <circle cx="20.2" cy="15.95" r="0.18" fill="#fff"/>
+  <path d="M18.4 15.8c.6-.8 2.1-.9 2.9-.1" fill="none" stroke="#241107" stroke-width="0.35" stroke-linecap="round"/>
+
+  <!-- muzzle -->
+  <path d="M12.5 18.2c.7 2 2.1 3.1 3.5 3.1s2.8-1.1 3.5-3.1c-1-.5-2.2-.8-3.5-.8s-2.5.3-3.5.8Z"
+        fill="#775138"/>
+  <path d="M12.8 17.8c.9-.6 2-.9 3.2-.9s2.3.3 3.2.9" fill="none" stroke="#5A3A24" stroke-width="0.35"/>
+  <path d="M14.2 18.7c.5.4 1.1.6 1.8.6.7 0 1.3-.2 1.8-.6" fill="none" stroke="#2A1409" stroke-width="0.45" stroke-linecap="round"/>
+  <path d="M16 17.2c-1 0-1.8.8-1.8 1.5 0 .7.8 1.3 1.8 1.3s1.8-.6 1.8-1.3c0-.7-.8-1.5-1.8-1.5Z"
+        fill="#3B2112"/>
+  <ellipse cx="16" cy="17.5" rx="1.45" ry="1.05" fill="#2A1409"/>
+  <ellipse cx="16" cy="17.2" rx="0.8" ry="0.35" fill="#5A3A24" opacity="0.55"/>
+
+  <!-- mouth -->
+  <path d="M15 18.85c.15.45.45.8 1 1.05.55-.25.85-.6 1-1.05" fill="none" stroke="#1A0D07" stroke-width="0.4" stroke-linecap="round"/>
+
+  <!-- earring -->
+  <circle cx="22.8" cy="18.6" r="0.9" fill="none" stroke="url(#gold)" stroke-width="0.45"/>
+
+  <!-- collar -->
+  <path d="M11.1 21.7c1.5.7 3.2 1 4.9 1 1.7 0 3.4-.3 4.9-1l.7 1.9c-1.8.9-3.7 1.3-5.6 1.3-1.9 0-3.8-.4-5.6-1.3l.7-1.9Z"
+        fill="#2A1710" stroke="#87603A" stroke-width="0.45"/>
+  <circle cx="16" cy="24.9" r="1.6" fill="#8D611D" stroke="#E7BD67" stroke-width="0.45"/>
+  <circle cx="16" cy="24.9" r="0.95" fill="#3A240D"/>
+  <path d="M15.6 24.6h.8M16 24.2v.8M15.72 24.32l.56.56M16.28 24.32l-.56.56" stroke="#E7D6A1" stroke-width="0.18" stroke-linecap="round"/>
+</svg>
